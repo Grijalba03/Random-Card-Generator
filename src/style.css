@@ -1,1 +1,30 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+}
+
+.card {
+  margin: auto;
+  height: 500px;
+  width: 340px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.izquierda {
+  height: 166px;
+}
+
+.centro {
+  height: 166px;
+}
+
+.derecha {
+  height: 166px;
+  transform: rotateX(180deg);
+}
+
+.pinta {
+  font-size: 75px !important;
+}
